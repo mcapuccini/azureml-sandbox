@@ -1,0 +1,13 @@
+{
+  "name": "diabetes-azure",
+  "dockerFile": "../Dockerfile",
+  "remoteUser": "default",
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+  ],
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind,consistency=default",
+  ]
+}
