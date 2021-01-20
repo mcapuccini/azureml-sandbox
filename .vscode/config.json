@@ -2,5 +2,9 @@
   "python.pythonPath": "/opt/conda/envs/default/bin/python",
   "python.terminal.activateEnvironment": true,
   "python.linting.enabled": true,
-  "python.linting.pylintPath": "/opt/conda/envs/default/bin/pylint"
+  "python.linting.pylintPath": "/opt/conda/envs/default/bin/pylint",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
 }
