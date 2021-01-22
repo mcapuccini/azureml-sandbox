@@ -1,2 +1,2 @@
-# diabetes-azure
-A sample ML project on Azure.
+# azureml-sandbox
+Azure tests.
